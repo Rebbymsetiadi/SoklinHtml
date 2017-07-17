@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Soklin Lantai</title>
+    
+    
+<!-- Bootstrap core CSS -->
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  
+<link href="style/css/plugins.css" rel="stylesheet">   
+<link href="style_1.css" rel="stylesheet">
+    
+<link href="timeline.css" rel="stylesheet">
+<link href="slider.css" rel="stylesheet">    
+<link rel="icon" href="style/images/favicon.png" type="image/x-icon" />   
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <link href="animatepatels.css" rel="stylesheet">  
+    
+    
+    
+    <!-- <script src="style/js/vendor/jquery-1.10.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script> -->
+   
+    
+    
+     
+    
+   
+    
+    
+    
+    
+    
+    <style type="text/css">
+        .accordion-group{
+              border: 0px solid #000000;
+              -moz-border-radius: 0px;/*Firefox*/
+              -webkit-border-radius: 0px;/*Safari, Chrome*/
+              border-radius: 0px;
+              /*background-color: #fff;*/
+            }
+            .accordion-heading .accordion-toggle{
+              color: #ddd;
+              font-family: 'Oxygen', sans-serif;
+            }
+            .accordion-heading{
+              /*background-color: rgba(59,101,161,1);*/
+            }
+            .accordion-heading:hover{
+              /*background-color: rgba(59,101,161,0.8);*/
+            }
+            .accordion-heading .accordion-toggle:hover{
+              text-decoration: none;
+            }
+            .accordion-inner{
+              border-color: #ddd;
+            }
+        
+        .tinggi{height: 2143px;}
+        
+        .box {
+                background: rgba(255, 255, 255, 0.8);
+                padding: 30px;
+                box-shadow: 0 0 2px #fff inset;
+                -moz-box-shadow: 0 0 2px #fff inset;
+                -webkit-box-shadow: 0 0 4px #fff inset;
+            }
+       .flowerbg {
+                position: absolute;
+                left: 38px;
+                bottom: 1535px;
+                z-index: 0;
+            }
+        .wonderBG {
+                background: url(style/images/soklin/footer_bg3.png) no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+        
+            
+        .login {
+                float: right;
+                position: absolute;
+                top: 22px; 
+                right: 409px;
+                list-style: none;
+                color: #2c5f9c;
+                font-family: "gotham-pro", sans-serif;
+            }
+        
+        .product_view .modal-dialog{max-width: 600px; width: 100%;}
+        .pre-cost{text-decoration: line-through; color: #a5a5a5;}
+        .space-ten{padding: 10px 0;}
+        
+        
+        .modal-backdrop {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 0;
+                background-color: rgba(0, 0, 0, 0.97);
+            }
+        
+     .modal-dialog {
+                    width: 600px;
+                    margin: 140px auto;
+                }    
+        
+         #top-bar {
+               /* background: url(style/images/soklin/menu_bg.png) !important; */
+                position: absolute;
+                top: 55px;
+                z-index: 5000;
+                float: right;
+                right: 23%;
+                top: 2%;
+        }
+        
+        .thm-container {
+                max-width: 890px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+        #top-bar .top-contact-info li {
+                display: inline-block;
+                color: #C0C0C0;
+                /* border-right: 1px solid #8BCC3D; */
+                padding-left: 12px;
+                padding-right: 15px;
+                line-height: 40px;
+            }
+        
+        .thm-container {
+                max-width: 890px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+        #top-bar .top-contact-info li {
+                display: inline-block;
+                color: #C0C0C0;
+                /* border-right: 1px solid #8BCC3D; */
+                padding-left: 12px;
+                padding-right: 15px;
+                line-height: 40px;
+            }
+        
+        
+        
+        .modal-content {
+                position: relative;
+                background-color: #dfc6cc;
+                -webkit-background-clip: padding-box;
+                background-clip: padding-box;
+                border: 1px solid #999;
+                border: 1px solid rgba(0,0,0,.2);
+                border-radius: 6px;
+                outline: 0;
+                -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+                box-shadow: 0 3px 9px rgba(0,0,0,.5);
+            }
+        
+        
+        @media (max-width: 767px) {
+            
+            .flowerbg {
+                position: absolute;
+                left: -2px;
+                bottom: 1639px;
+                z-index: 0;
+                width: 154px;
+            }
+            
+             #top-bar {
+                        /* background: url(style/images/soklin/menu_bg.png) !important; */
+                        position: absolute;
+                        top: 55px;
+                        z-index: 5000;
+                        float: right;
+                        right: 16%;
+                        top: 4%;
+                    }
+
+                }
+        
+            
+        }
+        
+        @media (min-width: 768px){
+                .modal-dialog {
+                    width: 500px;
+                    margin: 140px auto;
+                }
+        }
+        
+        @media (max-width: 667px){
+            
+            .login {
+                float: left;
+                position: relative;
+                font-family: "gotham-pro", sans-serif;
+                list-style: none;
+                color: #70aed2;
+                left: 2px;
+                top: -29px;
+            }
+            
+        }
+        
+       
+       
+     
+    </style>
+    
+    
+    
+ 
+  
+
+</head>
+<body>
+    <section id="top-bar">
+    <div class="thm-container clearfix">
+        
+        <div class="top-contact-info pull-right">
+            <ul>
+                
+                                <li>
+                    <a href="#" data-toggle="modal" data-target="#product_view">
+                        <i class="fa fa-key"></i>
+                        <span> Login</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#product_view2">
+                        <i class="fa fa-lock"></i>
+                        <span>Register</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</section>  
+<div id="preloader"><div class="textload">Loading</div><div id="status"><div class="spinner"></div></div></div>
+<main class="body-wrapper">
+    
+  <div class="navbar">
+    <div class="navbar-header">
+      <div class="basic-wrapper"> 
+          <div class="navbar-brand"> <a href="index.html"><img src="" srcset="style/images/soklin/logo-soklin_new.png" class="logo-light" alt="" style="width:65px;"></a></div>
+        <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a>
+          
+      </div>
+      <!-- /.basic-wrapper -->  
+    </div>
+    <!-- /.navbar-header -->
+    
+    <nav class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#produk" class="" >Produk</a>
+          
+        </li>
+       
+        <li><a href="#kegiatan" class="">Kegiatan</a>
+        
+        </li>
+        <li class="mobile">
+            <a href="index.html" class="">
+                <img class="mobile" src="style/images/soklin/logo-soklin_new.png" style="width:138px; height:140px;" alt="" />
+            </a>
+        </li>
+        
+        <li class="tutor"><a href="#tutorial" class="">Tutorial</a>
+          
+        </li>
+        <li class="wonder"><a href="wondermom-list.html" class="">WonderMom Talk</a>
+          
+        </li>
+          
+      </ul>
+        <!--<ul>
+          <li class="" style="list-style:none;"><a href="#" class="login">Login / Sign up</a>
+          
+        </li>
+      </ul>-->
+      <!-- /.navbar-nav --> 
+    </nav>
+      
+      
+    <!-- /.navbar-collapse -->
+    
+    <!-- /.social-wrapper --> 
+  </div>
+  <!-- /.navbar -->
+  
+  <!-- /.revolution -->
+    
+  
+    
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="6000" id="Carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#Carousel" data-slide-to="1"></li>
+    <li data-target="#Carousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class=""><img src="style/images/soklin/hero-banner.jpg" ></div>
+      <div class="hero">
+       
+        
+      </div>
+    </div>
+    <!--<div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>We are smart</h1>        
+            <h3>Get start your next awesome project</h3>
+        </hgroup>       
+       
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Munculkan kesan relax diruangan anda</h1>        
+            <h3>dengan aroma Rose Bouquet dari soklin lantai</h3>
+        </hgroup>
+        
+      </div>
+    </div>-->
+  </div> 
+        
+    <a class="left carousel-control" href="#Carousel" style="color:#337ab7;" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#Carousel" style="color:#337ab7;" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>   
+</div>
+    
+  
+  <div class="light-wrapper" id="produk">
+      
+    <div class="container inner2">
+     
+      <!-- /.thin -->
+      <div class="divide10"></div>
+        
+      
+      <!-- /.row --> 
+      
+       <div><img src="style/images/soklin/separator.png" width="1910px" style="position: relative;left: -2px;z-index: 1000;top: -44px;"></div>
+      
+        
+        <div id="templates">
+          <div class="accordion" id="accordion4">
+            
+            <div class="accordion-group">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" id="collaps" data-parent="#accordion4" href="#collapseFour">
+                <h3 class="section-title text-center section-mobile">PRODUCT GALLERY</h3>
+                </a>
+              </div>
+              <div id="collapseFour" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                  <div class="dark-wrapper">
+                   <p class="text-center">Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                      <div class="divide30"></div>
+      <div class="col-image" >
+       
+      <!--/.bg-wrapper -->
+      <section id="" class="cd-container">
+		<div id="slide-portfolio" class="image-grid col3">
+                        <div class="items-wrapper">
+                          <ul class="isotope items">
+                            <li class="item">
+                              <figure class="icon-overlay"><a href="" data-type="slide-portfolio-item-1"><img src="http://whizzup.com/demo/skl/product/product-pine.png" alt="" /></a></figure>
+                              <div class="slide-portfolio-item-info box">
+                                <h4 class="post-title">Aromatic Apple Green</h4>
+                              </div>
+                            </li>
+                            <li class="item">
+                              <figure class="icon-overlay"><a href="" data-type="slide-portfolio-item-2"><img src="http://whizzup.com/demo/skl/product/product-rose.png" alt="" /></a></figure>
+                              <div class="slide-portfolio-item-info box">
+                                <h4 class="post-title">Aromatic Marine</h4>
+                              </div>
+                            </li>
+                            <li class="item">
+                              <figure class="icon-overlay"><a href="" data-type="slide-portfolio-item-3"><img src="http://whizzup.com/demo/skl/product/product-lavender.png" alt="" /></a></figure>
+                              <div class="slide-portfolio-item-info box">
+                                <h4 class="post-title">Aromatic Lemon</h4>
+                              </div>
+                            </li>
+                            <li class="item">
+                              <figure class="icon-overlay"><a href="" data-type="slide-portfolio-item-4"><img src="http://whizzup.com/demo/skl/product/product-lemon.png" alt="" /></a></figure>
+                              <div class="slide-portfolio-item-info box">
+                                <h4 class="post-title">Aromatic Lavender</h4>
+                              </div>
+                            </li>
+                            <li class="item">
+                              <figure class="icon-overlay"><a href="" data-type="slide-portfolio-item-5"><img src="http://whizzup.com/demo/skl/product/product-marine.png" alt="" /></a></figure>
+                              <div class="slide-portfolio-item-info box">
+                                <h4 class="post-title">Aromatic Rose</h4>
+                              </div>
+                            </li>
+                            <li class="item">
+                              <figure class="icon-overlay"><a href="" data-type="slide-portfolio-item-6"><img src="http://whizzup.com/demo/skl/product/product-apel.png" alt="" /></a></figure>
+                              <div class="slide-portfolio-item-info box">
+                                <h4 class="post-title">Aromatic Pine</h4>
+                              </div>
+                            </li>
+
+
+
+                          </ul>
+                        </div>
+                        <!--/.items-wrapper --> 
+                      </div>
+		
+	</section> <!-- cd-timeline -->
+      <!--/.container --> 
+    </div>
+    <!-- /.container --> 
+    
+  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="divide10"></div>
+        
+        
+        
+<div class="modal fade product_view" id="product_view">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Login</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    
+                    <div class="col-md-12 product_content">
+                       
+                         <form action="include/sendemail.php">
+                                    <p><input type="text" placeholder="Username" name="name"></p>
+                                    <p><input type="password" placeholder="Password" name="password"></p>
+                                    <ul class="special-checkbox" style="list-style:none;">
+                                        <li>
+                                            <span class="input-checker">
+                                                <input type="checkbox" name="apt_vehicle_services_needed" value="">
+                                            </span>Remember me</li>
+                                    </ul>
+                                    <input type="submit" value="Login" name="submit" class="btn btn-submit" />
+                                </form>
+                        
+                        
+                        
+                        
+                        
+                        <div class="space-ten"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        
+<div class="modal fade product_view" id="product_view2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Register</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    
+                    <div class="col-md-12 product_content">
+                       
+                         <form action="include/sendemail.php" class="contact-form register">
+                                <p><input type="text" placeholder="Username" name="name"></p>
+                                <p><input type="text" placeholder="Email" name="email"></p>
+                                <p><input type="password" placeholder="Password" name="password"></p>
+                                <p><input type="password" placeholder="Confirm Password" name="password"></p>
+                                <input type="submit" value="Register" name="submit" class="btn btn-submit" />
+                            </form>
+                        
+                        
+                        
+                        
+                        
+                        <div class="space-ten"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        
+        
+        
+        <div id="templates">
+          <div class="accordion" id="accordion3">
+            
+            <div class="accordion-group" id="kegiatan">
+              <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" id="collaps" data-parent="#accordion3" href="#collapseThree">
+                <h3 class="section-title text-center section-mobile">WHAT’S HAPPENING</h3>
+                </a>
+              </div>
+              <div id="collapseThree" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                  <div class="dark-wrapper">
+                    <div class="flowerbg"><img src="style/images/soklin/bg_flower.png"></div>
+      <div class="col-image" id="tutorial">
+       
+      <!--/.bg-wrapper -->
+      <section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="style/images/soklin/dot-timeline.png" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">2017</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="style/images/soklin/dot-timeline.png" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">2017</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="style/images/soklin/dot-timeline.png" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. </p>
+				<a href="#0" class="cd-read-more">Read more</a>
+				<span class="cd-date">2017</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		
+	</section> <!-- cd-timeline -->
+      <!--/.container --> 
+    </div>
+    <!-- /.container --> 
+    
+  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        
+    </div>
+       
+    <div id="background-wrap" style="display:none;">
+            <div class="bubble x1"></div>
+            <div class="bubble x2"></div>
+            <div class="bubble x3"></div>
+            <div class="bubble x4"></div>
+            <div class="bubble x5"></div>
+            <div class="bubble x6"></div>
+            <div class="bubble x7"></div>
+            <div class="bubble x8"></div>
+            <div class="bubble x9"></div>
+            <div class="bubble x10"></div>
+        </div>
+      
+    
+      
+      
+    <!-- /.container --> 
+      
+      
+      <div class="container" >
+          
+           
+            <!-- Selector by Id -->
+            <!--<div id="unix" data-ycp_title="Soklin" data-ycp_channel="UC9T0II3FXyCmEOR-5Znx3Og"></div>--> <!-- By ChannelId -->
+          
+          
+        <div class="carousel carousel-boxed blog" id="tutorial">
+              <div class="item post">
+                  <h3 class="section-title text-center">Tips For Moms</h3>
+                <figure class="main"><iframe width="370" height="235" src="https://www.youtube.com/embed/ggqiaTknX5o?rel=0" frameborder="0" allowfullscreen></iframe></figure>
+
+                <!-- /.box --> 
+
+              </div>
+              <!-- /.post -->
+
+              <div class="item post">
+                  <h3 class="section-title text-center">Tutorial's</h3>
+                <figure class="main"><iframe width="370" height="235" src="https://www.youtube.com/embed/UQgqEoRaw4Y?rel=0" frameborder="0" allowfullscreen></iframe></figure>
+
+                <!-- /.box --> 
+
+              </div>
+              <!-- /.post -->
+
+              <div class="item post">
+                  <h3 class="section-title text-center">Ads</h3>
+                <figure class="main"><iframe width="370" height="235" src="https://www.youtube.com/embed/csJNuuuOF6o?rel=0" frameborder="0" allowfullscreen></iframe></figure>
+
+                <!-- /.box --> 
+
+              </div>
+          </div>
+        
+          
+          
+      </div>
+      
+      
+    <div class="wonderBG">
+      <div class="container inner" id="wonder">
+      <h3 class="section-title text-center">WonderMom Talk's</h3>
+      <div class="divide10"></div>
+      <div class="carousel-wrapper">
+        <div class="carousel carousel-boxed blog">
+          <div class="item post">
+            <figure class="main"><img src="http://whizzup.com/demo/skl/article/4.jpg" alt="" /></figure>
+            <div class="box text-center">
+              
+              <h4 class="post-title"><a href="wondermom.html">Parturient Commodo Aenean</a></h4>
+              <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href=""><i class="icon-chat-1"></i> 15</a></span></div>
+              <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia odio.</p>
+            </div>
+            <!-- /.box --> 
+            
+          </div>
+          <!-- /.post -->
+          
+          <div class="item post">
+            <figure class="main"><img src="http://whizzup.com/demo/skl/article/1.jpg" alt="" /></figure>
+            <div class="box text-center">
+              
+              <h4 class="post-title"><a href="wondermom.html">Quam Mollis Ligula Nullam</a></h4>
+              <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href=""><i class="icon-chat-1"></i> 15</a></span></div>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <!-- /.box --> 
+            
+          </div>
+          <!-- /.post -->
+          
+          <div class="item post">
+            <figure class="main"><img src="http://whizzup.com/demo/skl/article/2.jpg" alt="" /></figure>
+            <div class="box text-center">
+              
+              <h4 class="post-title"><a href="wondermom.html">Tellus Bibendum Parturient</a></h4>
+              <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href=""><i class="icon-chat-1"></i> 15</a></span></div>
+              <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est.</p>
+            </div>
+            <!-- /.box --> 
+            
+          </div>
+          <!-- /.post -->
+          <div class="item post">
+            <figure class="main"><img src="style/images/art/b4.jpg" alt="" /></figure>
+            <div class="box text-center">
+              
+              <h4 class="post-title"><a href="wondermom.html">Parturient Commodo Aenean</a></h4>
+              <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href=""><i class="icon-chat-1"></i> 15</a></span></div>
+              <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia.</p>
+            </div>
+            <!-- /.box --> 
+            
+          </div>
+          <!-- /.post -->
+          
+          <div class="item post">
+            <figure class="main"><img src="style/images/art/b5.jpg" alt="" /></figure>
+            <div class="box text-center">
+              <div class="category cat12"><span><a href="">Still Life</a></span></div>
+              <h4 class="post-title"><a href="wondermom.html">Quam Mollis Ligula Nullam</a></h4>
+              <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href=""><i class="icon-chat-1"></i> 15</a></span></div>
+              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <!-- /.box --> 
+            
+          </div>
+          <!-- /.post -->
+          
+          <div class="item post">
+            <figure class="main"><img src="style/images/art/b6.jpg" alt="" /></figure>
+            <div class="box text-center">
+              <div class="category cat3"><span><a href="">Nature</a></span></div>
+              <h4 class="post-title"><a href="wondermom.html">Tellus Bibendum Parturient</a></h4>
+              <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href=""><i class="icon-chat-1"></i> 15</a></span></div>
+              <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est non.</p>
+            </div>
+            <!-- /.box --> 
+            
+          </div>
+          <!-- /.post --> 
+        </div>
+          <!--<div id="js-grid-mosaic-more" class="cbp-l-loadMore-text"> <a href="ajax/loadmore2.html" class="cbp-l-loadMorelink btn" rel="nofollow"> <span class="cbp-l-loadMore-defaultText">Load More</span> <span class="cbp-l-loadMore-loadingText">Loading...</span> <span class="cbp-l-loadMore-noMoreLoading">No More Works</span> </a> </div>-->
+        <!--/.carousel --> 
+      </div>
+      <!--/.carousel-wrapper --> 
+    </div>
+    </div>      
+  </div>
+  <!-- /.light-wrapper -->
+  
+  
+  <!-- /.dark-wrapper -->
+  
+  <div class="light-wrapper1">
+    
+    <!--/.col-image --> 
+    
+  </div>
+  <!-- /.light-wrapper -->
+  
+  <div class="dark-wrapper1">
+    
+    <!--/.container --> 
+    
+  </div>
+  <!-- /.dark-wrapper -->
+  
+  <!-- /.light-wrapper -->
+    
+    
+    
+    
+   <footer class="footer inverse-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-sm-4">
+            <img src="style/images/soklin/wings-logo.png" style="padding-right:20px; width:115px;"><span style="color: #337ab7;">© Copyright 2017 Wings </span>
+          <!-- /.widget --> 
+        </div>
+        <!-- /column -->
+        
+        <div class="col-sm-4 term">
+          <span>Wings Grup&nbsp;&nbsp;&nbsp;&nbsp;FAQ&nbsp;&nbsp;&nbsp;&nbsp;Syarat dan Ketentuan&nbsp;&nbsp;&nbsp;&nbsp;Hubungi Kami </span>
+        </div>
+        <!-- /column -->
+        
+        <div class="col-sm-4 socmed">
+            
+        <a href="#"><img src="style/images/soklin/fb-icon.png" style="width:36px;"></a>
+            <a href="#"><img src="style/images/soklin/ig-icon.png" style="width:36px;"></a>
+            <a href="#"><img src="style/images/soklin/youtube-icon.png" style="width:36px;"></a>    
+          
+        </div>
+        <!-- /column --> 
+        
+      </div>
+      <!-- /.row --> 
+    </div>
+    <!-- .container -->
+    
+
+  </footer>
+    
+  <!--<footer class="footer inverse-wrapper">
+    
+    <!-- .container 
+    
+    <div class="sub-footer">
+      <div class="container inner">
+        <p class="text-center">© Copyright 2016 Wings </p>
+      </div>
+      <!-- .container 
+    </div>
+    <!-- .sub-footer 
+  </footer>-->
+  <!-- /footer --> 
+  
+</main>
+    
+<!--/.body-wrapper --> 
+    
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-1">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Aromatic Apple Green</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li>
+            <div id="carousel-custom" class="carousel slide" data-ride="carousel">
+                <div class="carousel-outer">
+                    <!-- me art lab slider -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="style/images/soklin/variant_detail_3.jpg" alt="" id="zoom_05"  data-zoom-image="style/images/soklin/variant_detail_3.jpg"/>
+                        </div>
+                        <div class="item"  id="zoom_05">
+                            <img class="img-responsive" src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' data-zoom-image="style/images/soklin/variant/variant_detail_1lavender.jpg" />
+                        </div>
+
+                    </div>
+
+                    <!-- sag sol -->
+
+                </div>
+
+                <!-- thumb -->
+                <ol class='carousel-indicators mCustomScrollbar meartlab'>
+                    <li data-target='#carousel-custom' data-slide-to='0' class='active'><img src='style/images/soklin/variant_detail_3.jpg' alt='' /></li>
+                    <li data-target='#carousel-custom' data-slide-to='1'><img src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' /></li>
+
+
+                </ol>
+            </div>
+            </li>
+      </ul>
+        
+    
+ 
+    <!-- .inner --> 
+  
+  
+        
+   </div>
+    </div>
+    <!-- .inner --> 
+  </div>
+  <!-- slide-portfolio-item-detail --> 
+</div>
+<!-- slide-portfolio-item-content -->
+
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-2">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Aromatic Marine</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li>
+            <div id="carousel-custom2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-outer">
+                    <!-- me art lab slider -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="style/images/soklin/variant_detail_3.jpg" alt="" id="zoom_05"  data-zoom-image="style/images/soklin/variant_detail_3.jpg"/>
+                        </div>
+                        <div class="item"  id="zoom_05">
+                            <img class="img-responsive" src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' data-zoom-image="style/images/soklin/variant/variant_detail_1lavender.jpg" />
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="style/images/soklin/variant_detail_3.jpg" alt="" id="zoom_05"  data-zoom-image="style/images/soklin/variant_detail_3.jpg"/>
+                        </div>
+                        <div class="item"  id="zoom_05">
+                            <img class="img-responsive" src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' data-zoom-image="style/images/soklin/variant/variant_detail_1lavender.jpg" />
+                        </div>
+                        
+                    </div>
+
+                    <!-- sag sol -->
+
+                </div>
+
+                <!-- thumb -->
+                <ol class='carousel-indicators mCustomScrollbar meartlab'>
+                  <li data-target='#carousel-custom2' data-slide-to='0' ><img src='style/images/soklin/variant_detail_3.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom2' data-slide-to='1'><img src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' /></li>
+                    <li data-target='#carousel-custom2' data-slide-to='2' ><img src='style/images/soklin/variant_detail_3.jpg' alt='' /></li>
+                  <li data-target='#carousel-custom2' data-slide-to='3'><img src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' /></li>
+                     
+
+
+                </ol>
+            </div>
+            </li>
+      </ul>
+    </div>
+    <!-- .inner --> 
+  </div>
+  <!-- slide-portfolio-item-detail --> 
+</div>
+<!-- slide-portfolio-item-content -->
+
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-3">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Aromatic Lemon</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li>
+            <div id="carousel-custom3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-outer">
+                    <!-- me art lab slider -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="style/images/soklin/variant_detail_3.jpg" alt="" id="zoom_05"  data-zoom-image="style/images/soklin/variant_detail_3.jpg"/>
+                        </div>
+                        <div class="item"  id="zoom_05">
+                            <img class="img-responsive" src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' data-zoom-image="style/images/soklin/variant/variant_detail_1lavender.jpg" />
+                        </div>
+
+                    </div>
+
+                    <!-- sag sol -->
+
+                </div>
+
+                <!-- thumb -->
+                <ol class='carousel-indicators mCustomScrollbar meartlab'>
+                    <li data-target='#carousel-custom3' data-slide-to='0' ><img src='style/images/soklin/variant_detail_3.jpg' alt='' /></li>
+                    <li data-target='#carousel-custom3' data-slide-to='1'><img src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' /></li>
+
+
+                </ol>
+            </div>
+            </li>
+      </ul>
+    </div>
+</div>   
+</div>    
+<!-- slide-portfolio-item-content -->
+
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-4">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Aromatic Lavender</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li>
+            <div id="carousel-custom4" class="carousel slide" data-ride="carousel">
+                <div class="carousel-outer">
+                    <!-- me art lab slider -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="style/images/soklin/variant/variant_detail_lavender2.jpg" alt="" id="zoom_05"  data-zoom-image="style/images/soklin/variant/variant_detail_lavender2.jpg"/>
+                        </div>
+                        <div class="item"  id="zoom_05">
+                            <img class="img-responsive" src='style/images/soklin/variant/variant_pouch1.jpg' alt='' data-zoom-image="style/images/soklin/variant/variant_pouch1.jpg" />
+                        </div>
+
+                    </div>
+
+                    <!-- sag sol -->
+
+                </div>
+
+                <!-- thumb -->
+                <ol class='carousel-indicators mCustomScrollbar meartlab'>
+                    <li data-target='#carousel-custom4' data-slide-to='0' ><img src='style/images/soklin/variant/variant_detail_lavender2.jpg' alt='' /></li>
+                    <li data-target='#carousel-custom4' data-slide-to='1'><img src='style/images/soklin/variant/variant_pouch1.jpg' alt='' /></li>
+
+
+                </ol>
+            </div>
+            </li>
+      </ul>
+    </div>
+    <!-- .inner --> 
+  </div>
+  <!-- slide-portfolio-item-detail --> 
+</div>
+<!-- slide-portfolio-item-content -->
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-5">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Aromatic Rose</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li>
+            <div id="carousel-custom5" class="carousel slide" data-ride="carousel">
+                <div class="carousel-outer">
+                    <!-- me art lab slider -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="style/images/soklin/variant_detail_3.jpg" alt="" id="zoom_05"  data-zoom-image="style/images/soklin/variant_detail_3.jpg"/>
+                        </div>
+                        <div class="item"  id="zoom_05">
+                            <img class="img-responsive" src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' data-zoom-image="style/images/soklin/variant/variant_detail_1lavender.jpg" />
+                        </div>
+
+                    </div>
+
+                    <!-- sag sol -->
+
+                </div>
+
+                <!-- thumb -->
+                <ol class='carousel-indicators mCustomScrollbar meartlab'>
+                    <li data-target='#carousel-custom5' data-slide-to='0' ><img src='style/images/soklin/variant_detail_3.jpg' alt='' /></li>
+                    <li data-target='#carousel-custom5' data-slide-to='1'><img src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' /></li>
+
+
+                </ol>
+            </div>
+            </li>
+      </ul>
+    </div>
+    <!-- .inner --> 
+  </div>
+  <!-- slide-portfolio-item-detail --> 
+</div>
+<!-- slide-portfolio-item-content -->
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-6">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Aromatic Pine</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li>
+            <div id="carousel-custom6" class="carousel slide" data-ride="carousel">
+                <div class="carousel-outer">
+                    <!-- me art lab slider -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="style/images/soklin/variant_detail_3.jpg" alt="" id="zoom_05"  data-zoom-image="style/images/soklin/variant_detail_3.jpg"/>
+                        </div>
+                        <div class="item"  id="zoom_05">
+                            <img class="img-responsive" src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' data-zoom-image="style/images/soklin/variant/variant_detail_1lavender.jpg" />
+                        </div>
+
+                    </div>
+
+                    <!-- sag sol -->
+
+                </div>
+
+                <!-- thumb -->
+                <ol class='carousel-indicators mCustomScrollbar meartlab'>
+                    <li data-target='#carousel-custom6' data-slide-to='0' ><img src='style/images/soklin/variant_detail_3.jpg' alt='' /></li>
+                    <li data-target='#carousel-custom6' data-slide-to='1'><img src='style/images/soklin/variant/variant_detail_1lavender.jpg' alt='' /></li>
+
+
+                </ol>
+            </div>
+            </li>
+      </ul>
+    </div>
+    <!-- .inner --> 
+  </div>
+  <!-- slide-portfolio-item-detail --> 
+</div>
+<!-- slide-portfolio-item-content -->
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-7">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Workshop</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li><img src="style/images/art/sp7-1.jpg" alt=""></li>
+        <li><img src="style/images/art/sp7-2.jpg" alt=""></li>
+        <li><img src="style/images/art/sp7-3.jpg" alt=""></li>
+        <li><img src="style/images/art/sp7-4.jpg" alt=""></li>
+        <li><img src="style/images/art/sp7-5.jpg" alt=""></li>
+        <li><img src="style/images/art/sp7-6.jpg" alt=""></li>
+      </ul>
+    </div>
+    <!-- .inner --> 
+  </div>
+  <!-- slide-portfolio-item-detail --> 
+</div>
+<!-- slide-portfolio-item-content -->
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-8">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Coffee Cups</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li><img src="style/images/art/sp8-1.jpg" alt=""></li>
+        <li><img src="style/images/art/sp8-2.jpg" alt=""></li>
+        <li><img src="style/images/art/sp8-3.jpg" alt=""></li>
+        <li><img src="style/images/art/sp8-4.jpg" alt=""></li>
+      </ul>
+    </div>
+    <!-- .inner --> 
+  </div>`
+  <!-- slide-portfolio-item-detail --> 
+</div>
+<!-- slide-portfolio-item-content -->
+<div class="slide-portfolio-item-content dark-wrapper slide-portfolio-item-9">
+  <div class="slide-portfolio-item-detail">
+    <div class="inner2">
+      <h2 class="text-center">Holding Green</h2>
+      <p class="text-center">Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="divide25"></div>
+      <ul class="basic-gallery text-center">
+        <li><img src="style/images/art/sp9-1.jpg" alt=""></li>
+        <li><img src="style/images/art/sp9-2.jpg" alt=""></li>
+        <li><img src="style/images/art/sp9-3.jpg" alt=""></li>
+        <li><img src="style/images/art/sp9-4.jpg" alt=""></li>
+        <li><img src="style/images/art/sp9-5.jpg" alt=""></li>
+      </ul>
+    </div>
+    <!-- .inner --> 
+  </div>
+  <!-- slide-portfolio-item-detail --> 
+</div>    
+    
+<a href="" class="slide-portfolio-item-content-close"><i class="budicon-cancel-1"></i></a> <!-- close slide portfolio content -->     
+ 
+    
+<script src="style/js/jquery.min.js"></script>    
+    
+<script type="text/javascript">
+        $(document).ready(function(){
+        var lebar =  $(window).width();
+            //alert(lebar);
+        if ( lebar >= 1280) {
+              $("#background-wrap").show();
+              //alert('1' + lebar);
+            }
+            else {
+               $("#background-wrap").hide();
+               // alert('2' + lebar);
+            }
+        });
+    </script>
+    
+    
+    <script>
+        $(window).bind('resize load', function() {
+            if ($(this).width() < 767) {
+                $('#collapseTwo').removeClass('in');
+                $('#collapseTwo').addClass('out');
+                $('#collapseThree').removeClass('in');
+                $('#collapseThree').addClass('out');
+                $('#collapseFour').removeClass('in');
+                $('#collapseFour').addClass('out');
+            } else {
+                $('#collapseTwo').removeClass('out');
+                $('#collapseTwo').addClass('in');
+                $('#collapseThree').removeClass('out');
+                $('#collapseThree').addClass('in');
+                $('#collapseFour').removeClass('out');
+                $('#collapseFour').addClass('in');
+            }
+        });
+        
+         $('#Carousel').carousel({interval:6000});
+        
+    </script>    
+    
+<script src="style/js/bootstrap.min.js"></script>   
+<script src="style/js/plugins.js"></script> 
+<script src="style/js/classie.js"></script> 
+<script src="style/js/jquery.themepunch.tools.min.js"></script> 
+<script src="style/js/scripts.js"></script>
+
+
+
+  
+    <script src="style/js/sidebarEffects.js"></script>
+    <script src="style/js/jquery-scrolltofixed-min.js"></script>
+    <script src="style/js/scrollIt.min.js"></script>
+    <script src="style/js/jquery.flexslider.js"></script>
+    
+    <!--<script src="js/jquery.isotope.min.js"></script>-->
+    <script src="style/js/isotope.pkgd.min.js"></script>
+    <script src="style/js/skrollr.min.js"></script>
+    <script src="style/js/jquery.fitvids.js"></script>
+    
+
+   
+   
+<!-- DEMO ONLY -->
+
+</body>
+</html>
